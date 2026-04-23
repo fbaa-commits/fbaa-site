@@ -22,7 +22,7 @@ html, body { height: 100%; background: var(--black); color: var(--white); font-f
 @keyframes slowzoom { from { transform: scale(1.05); } to { transform: scale(1.00); } }
 .overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(12,12,12,0.1) 0%, rgba(12,12,12,0.0) 35%, rgba(12,12,12,0.55) 100%); }
 header { position: absolute; top: 0; left: 0; right: 0; padding: 2.4rem 3rem; display: flex; justify-content: space-between; align-items: flex-start; opacity: 0; animation: fadein 1.4s ease 0.3s forwards; }
-.logo { display: block; width: auto; height: clamp(60px, 8vw, 100px); opacity: 0.92; }
+.logo { display: block; width: auto; height: clamp(80px, 11vw, 140px); opacity: 0.92; }
 nav { display: flex; gap: 2.8rem; align-items: center; padding-top: 0.4rem; }
 nav a { font-family: 'FuturaPT', 'Futura', 'Century Gothic', sans-serif; font-size: 0.62rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gray); text-decoration: none; font-weight: 300; transition: color 0.4s; }
 nav a:hover { color: var(--white); }
@@ -34,7 +34,7 @@ nav a:hover { color: var(--white); }
 .contact-link { font-family: 'FuturaPT', 'Futura', 'Century Gothic', sans-serif; display: inline-block; font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gray); text-decoration: none; font-weight: 300; border: 1px solid rgba(245,244,240,0.2); padding: 0.8rem 1.6rem; transition: all 0.4s; }
 .contact-link:hover { color: var(--white); border-color: rgba(245,244,240,0.6); background: rgba(245,244,240,0.05); }
 .divider { position: absolute; bottom: 0; left: 3rem; right: 3rem; height: 1px; background: rgba(245,244,240,0.1); opacity: 0; animation: fadein 1s ease 1.5s forwards; }
-@media (max-width: 640px) { header { padding: 1.8rem 2rem; } nav { gap: 1.8rem; } .bottom-left { left: 2rem; bottom: 5rem; } .bottom-right { right: 2rem; bottom: 2rem; } .divider { left: 2rem; right: 2rem; } .project-name { font-size: 1.6rem; } .logo { height: 50px; } }
+@media (max-width: 640px) { header { padding: 1.8rem 2rem; } nav { gap: 1.8rem; } .bottom-left { left: 2rem; bottom: 5rem; } .bottom-right { right: 2rem; bottom: 2rem; } .divider { left: 2rem; right: 2rem; } .project-name { font-size: 1.6rem; } .logo { height: 65px; } }
 @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slidein { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 </style>
@@ -63,3 +63,4 @@ nav a:hover { color: var(--white); }
 </section>
 </body>
 </html>
+
